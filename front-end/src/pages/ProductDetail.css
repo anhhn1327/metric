@@ -1,0 +1,462 @@
+@import '@fortawesome/fontawesome-svg-core/styles.css';
+
+.header {
+    border-bottom: 1px solid #d0d2d6;
+}
+
+.content-header {
+    width: 70%;
+}
+
+.breadcrumb {
+    background-color: #ffffff;
+    width: 70%;
+}
+
+.header .app-name {
+    color: rgb(245,112,26);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header input {
+    border: 1px solid #d0d2d6;
+    border-radius: 20px;
+    width: 500px;
+    padding: 5px 20px;
+}
+
+.header input:focus {
+    outline: none;
+}
+
+.content {
+    width: 70%;
+}
+
+.content .product .image-area {
+    width: 700px;
+    height: 800px;
+    border: 1px solid #d0d2d6;
+    border-radius: 20px;
+}
+
+.content .product .image {
+    width: 650px;
+    height: 680px;
+}
+
+.content .product .preview-images {
+    width: 680px;
+}
+
+.content .product .preview-image {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #d0d2d6;
+    border-radius: unset;
+}
+
+.content .product .preview-image:hover {
+    cursor: pointer;
+    border: 2px solid rgb(245,112,26);
+}
+
+.content .product .product-name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.track-discounts {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid rgb(245,112,26);
+    color: rgb(245,112,26);
+    font-weight: bold;
+}
+
+.track-discounts:hover {
+    background-color: rgb(245,112,26);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.content .product img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.content .price .current {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(220,38,38);
+}
+
+.content .price .old {
+    text-decoration: line-through;
+    color: #9b9c9e;
+}
+
+.content .reduce {
+    color: rgb(9,120,87);
+    background-color: rgb(167,243,208);
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.content .description .go-to-sell-btn, .suggest-product .go-to-sell-btn, .add-ext-btn {
+    color: #ffffff;
+    background-color: rgb(245,112,26);
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.ratings {
+    margin: unset !important;
+    display: contents;
+}
+
+.vote {
+    color: rgb(251,191,36);
+}
+
+.star {
+    position: relative;
+    line-height: 30px;
+    display: inline-block;
+    transition: color 0.2s ease;
+    color: rgb(251,191,36); 
+}
+  
+.star:before {
+    content: '\2605';
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+}
+
+.menu div {
+    border-bottom: 2px solid #e3e5e8;
+}
+
+.menu .active {
+    border-bottom: 2px solid rgb(234,76,17);
+}
+
+.other-product {
+    box-shadow:  0px 7px 12px 0px rgba(157, 202, 196, 0.25);
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+}
+
+.other-product img {
+    width: 100px;
+}
+
+.other-product:hover {
+    border: 1px solid #d0d2d6;
+    cursor: pointer;
+}
+
+.other-product .go-to-sell-btn {
+    border: 1px solid rgb(27,90,242);
+    color: rgb(27,90,242);
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.other-product .go-to-sell-btn:hover {
+    background-color: rgb(27,90,242);
+    color: #ffffff;
+}
+
+.other-product .product-name:hover {
+    color: rgb(220,38,38);
+}
+
+.other-product .price {
+    color: rgb(220,38,38);
+}
+
+.detail-area {
+    border-bottom: 1px solid #e3e5e8;
+}
+
+.detail-name {
+    font-size: 20px;
+}
+
+.frame {
+    border: 1px solid rgb(234,76,17);
+    border-radius: 5px; 
+}
+
+.chart {
+    width: 70%;
+    height: 500px;
+    color: rgb(234,76,17);
+}
+
+.chart-detail {
+    width: 350px;
+    height: 150px;
+}
+
+.suggestion {
+    width: 350px;
+    height: 250px;
+    background-color: rgb(255,251,237);
+}
+
+.chart-name {
+    font-size: 20px
+}
+
+.powered, .suggestion-note {
+    font-size: 10px;
+    color: #acaeb0;
+}
+
+.powered a, .detail-description a {
+    color: rgb(234,76,17);
+    text-decoration: unset;
+}
+
+.suggestion-note .btn {
+    color: #ffffff;
+    background: linear-gradient(265.78deg, rgb(224, 121, 55) 0.54%, rgb(223, 163, 73) 99.62%);
+    border: unset;
+}
+
+.detail-description {
+    color: #87888a;
+}
+
+.place {
+    color: rgb(16,187,141);
+}
+
+.review, .content-footer {
+    border-bottom: 1px solid #d0d2d6;
+}
+
+.review .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.review .review-img {
+    width: 100px;
+    height: 100px;
+}
+
+.time {
+    font-size: 12px;
+}
+
+.see-more-btn {
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.see-more-btn:hover {
+    border: 1px solid rgb(234,76,17);
+    color: rgb(234,76,17);
+    cursor: pointer;
+}
+
+.related-product, .suggest-product {
+    width: 250px;
+    height: 400px;
+    box-shadow:  0px 5px 12px 0px rgba(125, 126, 126, 0.25);
+}
+
+.suggest-product {
+    height: 350px;
+}
+
+.related-product:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+}
+
+.suggest-product:hover {
+    position: absolute;
+    cursor: pointer;
+    z-index: 9;
+}
+
+.suggest-product:hover .position-absolute {
+    height: 450px;
+    border: 1px solid rgb(234,76,17);
+    background-color: white;
+}
+
+.suggest-product .go-to-sell-btn {
+    display: none;
+    width: 220px;
+}
+
+.suggest-product:hover .go-to-sell-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.related-product .name:hover, .suggest-product .name:hover {
+    color: rgb(220,38,38); 
+}
+
+.related-product img, .suggest-product img {
+    width: 230px;
+    height: 250px;
+    margin: auto;
+}
+
+.related-product .reduce {
+    width: 150px;
+}
+
+.post {
+    width: 30%;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.post img {
+    width: 100%;
+    height: 200px;
+}
+
+.post .see-more-btn {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(229,231,235);
+    border: unset;
+}
+
+.statistics {
+    width: 100%;
+    height: 500px;
+    border: 1px solid rgb(203,224,255);
+}
+
+.statistics .header {
+    border-bottom: 1px solid rgb(203,224,255);
+}
+
+.statistics img {
+    width: 200px;
+}
+
+.statistics .name {
+    font-size: 20px;
+}
+
+.banner {
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    background-color: rgb(211,225,246);
+    color: rgb(61,11,0);
+}
+
+.banner .text{
+    width: 40%;
+}
+
+.banner .title {
+    font-size: 25px;
+}
+
+.add-ext-btn {
+    width: 350px;
+}
+
+.footer {
+    width: 100%;
+    border-top: 4px solid rgb(234,76,17);
+    color: #87888a;
+}
+
+.content-footer {
+    width: 70%;
+}
+
+.content-footer .column {
+    width: 30%;
+}
+.social-icon {
+    font-size: 25px;
+    width: 40px;
+}
+
+.scroll-product {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: unset;
+    box-shadow: 0 0 7px -4px;
+    /* background-color: rgba(255,255,255,var(--tw-bg-opacity)); */
+    background-color: #ffffff;
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+}
+
+.scroll-product:hover {
+    color: rgb(234,76,17);
+    transform: scale(1.2);
+}
+
+.scroll-product:focus, .scroll-image:focus {
+    outline: none;
+}
+
+.scroll-left {
+    left: -25px;
+}
+
+.scroll-right {
+    right: -25px;
+}
+
+.scroll-image {
+    width: 20px;
+    height: 80px;
+    border: unset;
+    box-shadow: 0 0 7px -4px;
+    background-color: rgb(179,179,179);
+    position: absolute;
+    z-index: 9;
+    bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.scroll-image:hover {
+    background-color: rgb(140,140,140);
+}
+
+.scroll-image-left {
+    left: 3px;
+}
+
+.scroll-image-right {
+    right: 3px;
+}
